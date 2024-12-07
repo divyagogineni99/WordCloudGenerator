@@ -47,7 +47,7 @@ This project is a Word Cloud Generator that utilizes Reddit posts as input data.
 - Reddit API credentials (client ID, secret, and token)
 
 ### Steps to Run the Java Code
-1. Clone the repository: git clone https://github.com/your-username/WordCloudGenerator.git
+1. Clone the repository: git clone https://github.com/divyagogineni99/WordCloudGenerator.git
   
 2. Switch to the Java branch: git checkout java-s3-uploader
 
