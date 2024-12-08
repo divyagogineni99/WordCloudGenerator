@@ -50,15 +50,25 @@ This project is a Word Cloud Generator that utilizes Reddit posts as input data.
 1. Clone the repository: git clone https://github.com/divyagogineni99/WordCloudGenerator.git
   
 2. Switch to the Java branch: git checkout java-s3-uploader
+   
+4. Add your AWS access key and secret access key in applications.properties file
 
-3. Build the project: ./mvnw clean install
+5. Build the project: ./mvnw clean install
 
-4. Run the application: java -jar target/wordcloudgenerator.jar
+6. Run the application: java -jar target/wordcloudgenerator.jar
 
 ### Steps to Run the Python Code
 
-1. Switch to the Python branch: git checkout python-wordcloud
+1. Go to Google Colab.
+     Click File > Upload Notebook and upload your .ipynb file.
 
-2. Install dependencies: pip install -r requirements.txt
+3. Install Dependencies
+    Add this cell at the top and run it: !pip install boto3 wordcloud matplotlib
 
-3. Run the Python script: python generate_wordcloud.py
+4. Add AWS Credentials
+    Update the AWS access key and secret key in the respective section of the notebook:
+    aws_access_key_id = "your_access_key"
+    aws_secret_access_key = "your_secret_key"
+
+5. Run the Notebook
+    Click Runtime > Run All or execute cells individually to generate the word cloud.
