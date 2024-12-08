@@ -51,7 +51,7 @@ This project is a Word Cloud Generator that utilizes Reddit posts as input data.
   
 2. Switch to the Java branch: git checkout java-s3-uploader
    
-4. Add your AWS access key and secret access key in applications.properties file
+4. Add your AWS access key, secret access key and bucket_name in applications.properties file
 
 5. Build the project: ./mvnw clean install
 
@@ -63,6 +63,6 @@ This project is a Word Cloud Generator that utilizes Reddit posts as input data.
 
 3. Install Dependencies : !pip install boto3 wordcloud matplotlib
 
-4. Update the AWS access key and secret key in the respective section of the notebook: aws_access_key_id = "your_access_key" , aws_secret_access_key = "your_secret_key"
+4. Update the AWS access key , secret key and bucket_name in the respective section of the notebook: aws_access_key_id = "your_access_key" , aws_secret_access_key = "your_secret_key"
 
 5. Click Runtime > Run All or execute cells individually to generate the word cloud.
