@@ -59,16 +59,10 @@ This project is a Word Cloud Generator that utilizes Reddit posts as input data.
 
 ### Steps to Run the Python Code
 
-1. Go to Google Colab.
-     Click File > Upload Notebook and upload your .ipynb file.
+1. Go to Google Colab: Click File > Upload Notebook and upload your .ipynb file.
 
-3. Install Dependencies
-    Add this cell at the top and run it: !pip install boto3 wordcloud matplotlib
+3. Install Dependencies : !pip install boto3 wordcloud matplotlib
 
-4. Add AWS Credentials
-    Update the AWS access key and secret key in the respective section of the notebook:
-    aws_access_key_id = "your_access_key"
-    aws_secret_access_key = "your_secret_key"
+4. Update the AWS access key and secret key in the respective section of the notebook: aws_access_key_id = "your_access_key" , aws_secret_access_key = "your_secret_key"
 
-5. Run the Notebook
-    Click Runtime > Run All or execute cells individually to generate the word cloud.
+5. Click Runtime > Run All or execute cells individually to generate the word cloud.
